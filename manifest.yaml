@@ -1,6 +1,17 @@
-name: excel-to-markdown
+type: tool
+label:
+  en_US: Excel to Markdown
 description:
   en_US: Convert Excel files to Markdown tables, including cell comments.
-version: 0.0.1
+resource:
+  memory: 256MB
+meta:
+  version: 0.0.1
+  arch: amd64
+  runner:
+    language: python3
+    version: 3.10
+    entrypoint: tools/excel_to_markdown/main.py
+created_at: "2026-04-22T00:00:00Z"
 author: opencode
 icon: excel_icon_placeholder
