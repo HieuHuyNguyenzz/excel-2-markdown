@@ -1,0 +1,5 @@
+name: excel-to-markdown
+description: Convert Excel files to Markdown tables, including cell comments.
+version: 0.0.1
+author: opencode
+icon: excel_icon_placeholder

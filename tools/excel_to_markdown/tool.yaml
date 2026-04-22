@@ -1,0 +1,10 @@
+name: excel_to_markdown
+description: Converts an Excel file to a Markdown table. It preserves the content of cell comments by appending them to the cell value.
+parameters:
+  - name: excel_file
+    type: file
+    description: The Excel file (.xlsx) to convert.
+    required: true
+output:
+  type: string
+  description: The converted Markdown table.
