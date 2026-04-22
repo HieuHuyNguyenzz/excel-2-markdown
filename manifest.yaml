@@ -1,5 +1,4 @@
-name:
-  en_US: excel-to-markdown
+name: excel-to-markdown
 description:
   en_US: Convert Excel files to Markdown tables, including cell comments.
 version: 0.0.1
